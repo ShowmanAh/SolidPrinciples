@@ -1,0 +1,17 @@
+{
+    "name": "showman/s-solid",
+    "description": "Solid In Php",
+    "authors": [
+        {
+            "name": "Showman",
+            "email": "showman.sh.ahmed@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Classes\\": "Classes"
+        }
+
+    }
+}
