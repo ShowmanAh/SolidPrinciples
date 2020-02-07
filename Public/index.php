@@ -1,5 +1,9 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
-$match = new \Classes\Match();
+$players = [];
+for ($i=1;$i<12;$i++){
+    array_push($players,new Classes\Player());
+}
+$match = new \Classes\Match($players);
 $match->start();
