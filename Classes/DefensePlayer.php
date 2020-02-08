@@ -8,11 +8,12 @@
 
 namespace Classes;
 use Interfaces\Defense;
+use Interfaces\PlayerInterface;
 
-class DefensePlayer implements Defense
+class DefensePlayer implements Defense, PlayerInterface
 {
 public function play(){
-    echo 'Defense';
+    $this->defense();
 }
 
 

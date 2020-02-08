@@ -14,7 +14,7 @@ use Players\KepperParent;
 use Players\KepperChield;
 use Interfaces\Keeper;
 
-class KepperPlayer implements Keeper
+class KepperPlayer implements Keeper, PlayerInterface
 {
 /*
     public function play()
@@ -33,5 +33,10 @@ class KepperPlayer implements Keeper
     public function keeping()
     {
        echo "keeper play";
+    }
+
+    public function play()
+    {
+        $this->keeping();
     }
 }

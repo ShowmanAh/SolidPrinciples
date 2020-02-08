@@ -10,9 +10,10 @@ namespace Classes;
 
 
 use Interfaces\Attack;
+use Interfaces\PlayerInterface;
 
 
-class AttackPlayer implements Attack
+class AttackPlayer implements Attack, PlayerInterface
 {
 /*
     public function play()
@@ -24,5 +25,10 @@ class AttackPlayer implements Attack
     public function attack()
     {
         echo "attack player";
+    }
+
+    public function play()
+    {
+        $this->attack();
     }
 }
