@@ -10,7 +10,7 @@ class KepperChield extends KepperParent
 {
     public function Keeping()
     {
-        return true;
+        return "child good keeping";
     }
 
 }

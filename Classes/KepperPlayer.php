@@ -18,9 +18,10 @@ class KepperPlayer implements PlayerInterface
 
     public function play()
     {
-       // $kepper = new KepperParent();
+        //sub should return the same behavior
+        $kepper = new KepperParent();
 
-        $kepper = new KepperChield();
+        //$kepper = new KepperChield();
         echo $kepper->keeping();
 
        // echo 'GoalKepper';
