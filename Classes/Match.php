@@ -19,8 +19,18 @@ class Match
         echo 'Match start play';
         echo "<pre>";
        foreach ($this->playerList as $player){
-           echo $player->play();
-           echo "<pre>";
+           if($player instanceof AttackPlayer){
+               $player->attack();
+               echo "<pre>";
+           }elseif ($player instanceof DefensePlayer){
+               $player->defense();
+               echo "<pre>";
+           }elseif ($player instanceof KepperPlayer){
+               $player->keeping();
+               echo "<pre>";
+           }
+          // echo $player->play();
+
 
        }
     }

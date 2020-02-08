@@ -32,6 +32,6 @@ class KepperPlayer implements Keeper
 
     public function keeping()
     {
-       echo "keeping";
+       echo "keeper play";
     }
 }
