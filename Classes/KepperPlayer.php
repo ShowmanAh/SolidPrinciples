@@ -10,12 +10,19 @@ namespace Classes;
 
 
 use Interfaces\PlayerInterface;
+use Players\KepperParent;
+use Players\KepperChield;
 
 class KepperPlayer implements PlayerInterface
 {
 
     public function play()
     {
-        echo 'GoalKepper';
+       // $kepper = new KepperParent();
+
+        $kepper = new KepperChield();
+        echo $kepper->keeping();
+
+       // echo 'GoalKepper';
     }
 }
