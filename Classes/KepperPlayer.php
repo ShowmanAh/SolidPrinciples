@@ -12,10 +12,11 @@ namespace Classes;
 use Interfaces\PlayerInterface;
 use Players\KepperParent;
 use Players\KepperChield;
+use Interfaces\Keeper;
 
-class KepperPlayer implements PlayerInterface
+class KepperPlayer implements Keeper
 {
-
+/*
     public function play()
     {
         //sub should return the same behavior
@@ -26,19 +27,11 @@ class KepperPlayer implements PlayerInterface
 
        // echo 'GoalKepper';
     }
+**/
 
-    public function attack()
-    {
-        // TODO: Implement attack() method.
-    }
-
-    public function defense()
-    {
-        // TODO: Implement defense() method.
-    }
 
     public function keeping()
     {
-        // TODO: Implement keeping() method.
+       echo "keeping";
     }
 }

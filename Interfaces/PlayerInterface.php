@@ -11,7 +11,5 @@
 namespace Interfaces;
 interface PlayerInterface{
     public function play();
-    public function attack();
-    public function defense();
-    public function keeping();
+
 }
