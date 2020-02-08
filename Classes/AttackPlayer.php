@@ -18,4 +18,19 @@ class AttackPlayer implements PlayerInterface
     {
         echo 'Attack';
     }
+
+    public function attack()
+    {
+        echo 'Attack';
+    }
+
+    public function defense()
+    {
+        // TODO: Implement defense() method.
+    }
+
+    public function keeping()
+    {
+        // TODO: Implement keeping() method.
+    }
 }

@@ -26,4 +26,19 @@ class KepperPlayer implements PlayerInterface
 
        // echo 'GoalKepper';
     }
+
+    public function attack()
+    {
+        // TODO: Implement attack() method.
+    }
+
+    public function defense()
+    {
+        // TODO: Implement defense() method.
+    }
+
+    public function keeping()
+    {
+        // TODO: Implement keeping() method.
+    }
 }
